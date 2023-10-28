@@ -320,9 +320,11 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: slide-up-fade-in 0.3s ease-out forwards;
+  /* removed to use framer motion */
+  /* animation: slide-up-fade-in 0.3s ease-out forwards; */
 }
 
+/* animation using pure css */
 @keyframes slide-up-fade-in {
   0% {
     transform: translateY(50px);
